@@ -1,11 +1,18 @@
 import java.util.Scanner;
 public class Test {
   public static void main(String[] args){
-    //Brug scanner klasse
-    //1. lav en instans
+    /*
+     * FORMÅL:
+     * At få kendskab til scanner-klassen, integerdivision
+     * typecasting, order-of-precedence, bygge metoder og returnere
+     * værdier samt at blive præsenteret for bit-masking i skjult form
+     *
+     * Opgave 
+     * 1)
+     *
+     */
+
     Scanner myScan = new Scanner(System.in);
-    //2. Få et input fra brugeren
-    //2.1 Brug system-klassen til dialogen
     System.out.println("Indtast din alder: ");
     int age = myScan.nextInt();
     System.out.println("Indtast dit fulde navn");
@@ -30,11 +37,14 @@ public class Test {
     double weight;
     int tmpHeight = meterHoejde * 1000;
     double tmpWeight = kiloVægt * 10;
+    int heightWeight = (int) (tmpHeight + tmpWeight);
+    System.out.println("Samlet: " + heightWeight);
 
-
-
-
-    System.out.println("");
+    // nu splitter vi det igen
+    height = heightWeight / 1000;
+    // så skal vi have trukket højden ud af tallet
+    weight = (heightWeight - (height*1000))/10.0;
+    System.out.println("Opdelt H: " + height + "W: " + weight);
 
   }
 }
