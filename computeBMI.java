@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Test {
+public class ComputeBMI {
   public static void main(String[] args){
     /*
      * FORMÅL:
