@@ -19,7 +19,7 @@ class ModuloPrime {
      * F.eks for tallet 5 skal programmet vise: 
      
         Hvis mere end to af nedenstående udsagn er sande så er 5 ikke et primtal
-        0<=0
+        0==0
         1==0
         2==0
         1==0
