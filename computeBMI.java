@@ -4,7 +4,7 @@ public class Test {
     /*
      * FORMÅL:
      * At få kendskab til scanner-klassen, integerdivision
-     * typecasting, order-of-precedence, bygge metoder og returnere
+     * typecasting, order-of-precedence, at bygge metoder og returnere
      * værdier samt at blive præsenteret for bit-masking i skjult form
      *
      * Opgave 

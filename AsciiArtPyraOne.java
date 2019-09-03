@@ -5,7 +5,7 @@ class AsciiArtPyraOne {
      * At formatere output 
      *
      * OPGAVEN:
-     * 1)Tegn flg figur ved hjælp af #, mellemrum og printf
+     * Tegn flg figur ved hjælp af #, mellemrum og printf
      * hint: gem tegnet i en streng-variabel og brug formatspecifiers
      * til at lave passende mellemrum
      
