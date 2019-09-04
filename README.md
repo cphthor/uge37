@@ -16,4 +16,8 @@ så hver metode står for én slags opgave. Der er naturligvis benspænd
 i forhold til at vi må "nøjes" med det vi har lært ind til nu. Men 
 det er god træning (simple living, simple programming);
 
-6) ModuloPrime
+6) AsciiArtPyroOne
+
+7) AsciiArtPyroTwo
+
+8) ModuloPrime
