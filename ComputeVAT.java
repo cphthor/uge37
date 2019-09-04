@@ -33,7 +33,7 @@ public class ComputeVAT {
 
   }
   public static double doVAT(double number){
-    double VAT = number / 100 * 25; 
+    double VAT = number / 100 * prctVAT; 
     return VAT;
   }
 }
