@@ -1,6 +1,11 @@
 # Opgaver til uge 37
 ## Rækkefølgen 
-1) ComputeBMI
+1) FormatZero
+
+1) ComputeSum
+
+2) ComputeBMI
+
 Opgaverne der hedder noget med ComputBMI er en serie der skal vise 
 fordelene ved at uddelegere forskellige opgaver til passende metoder
 så hver metode står for én slags opgave. Der er naturligvis benspænd 
