@@ -1,4 +1,4 @@
-# Opgaver til uge 37
+# Opgaver til uge 37 - STADIG UNDER FORBEREDELSE. Forventes i review i løbet af mandag den 9
 ## Rækkefølgen 
 1) FormatZero
 
