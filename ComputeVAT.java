@@ -21,7 +21,7 @@
 
 import java.util.Scanner;
 public class ComputeVAT {
-  final static int prctVAT = 25;
+  final static int PRCVAT = 25;
 
   public static void main(String[] args){
 
@@ -33,7 +33,7 @@ public class ComputeVAT {
 
   }
   public static double doVAT(double number){
-    double VAT = number / 100 * prctVAT; 
+    double VAT = number / 100 * PRCVAT; 
     return VAT;
   }
 }
