@@ -1,21 +1,22 @@
 /*
  * FORMÅL:
- * At få kendskab til scanner-klassen, at bygge metoder og returnere
- * værdier
+ * At forbedre et program ved at uddelegere opgaver til metoder
  *
- * Opgave 
+ * OPGAVE:
  * Du kan forbedre den første opgave ved at flytte de forskellige opgavetyper
  * ind i passende metoder så main-delen bliver så "tynd" som mulig.
  *
  * Fremgangsmåden er altså flg:
  * 1) kopier eksisterende kode
- * 2) identificér de forskellige opgavetyper 
+ * 2) identificér de forskellige opgavetyper
  * (brugerdialog, uderegninger, visninger)
  * 3) definer passende metoder
  * 4) overvej om main-metoden skal kontrollere flowet mellem opgaverne
  * eller om en separat metode skal stå for den overordnede kontrol.
  *
  */
+
+//TODO: Skriv koden færdig. Sørg for at bruge konstanterne i doView-metoden
 
 //Løsning
 

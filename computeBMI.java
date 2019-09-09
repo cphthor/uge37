@@ -12,6 +12,7 @@ public class ComputeBMI {
      *
      */
 
+    // løsning
     Scanner myScan = new Scanner(System.in);
     System.out.println("Indtast din vægt i kg (én decimal):");
     double kiloVægt = myScan.nextDouble();

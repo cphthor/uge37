@@ -1,11 +1,11 @@
-# Opgaver til uge 37 - STADIG UNDER FORBEREDELSE. Forventes i review i løbet af mandag den 9
+# Opgaver til uge 37 
 ## Rækkefølgen 
 1) FormatZero
 
 2) OrderOfPrec
 
 3) ComputeVAT
-- ComputeVAT, ComputeVATBetterStyle, ComputeVATGoodStyle
+- ComputeVAT, ComputeVATBetterStyle
 
 4) ComputeSum
 

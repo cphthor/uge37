@@ -7,7 +7,7 @@ public class ComputeSum {
      * At få kendskab til scanner-klassen, at bygge metoder og returnere
      * værdier
      *
-     * Opgave 
+     * Opgave
      * 1) Lad brugeren indtaste et hel-tal mellem 100 og 999.
      * Lav en metode som returnerer den første tværsum (som er summen af de enkelte tal i
      * tallet)
@@ -22,16 +22,14 @@ public class ComputeSum {
      * Programmet skal nu udskrive flg:
      * Tværsummen er: 2
      *
-     * 1) Lad brugeren indtaste et hel-tal mellem 1000 og 9999.
+     * 2) Lad brugeren indtaste et hel-tal mellem 1000 og 9999.
      * exempel:
      * number = 2345
      * Tværsummen er: 14
      *
      *
      */
-    // TODO: udregning tværsummen af tallet alene vha division,addition og modulo
-    
-    //Løsning
+    // TODO: i maindelen skal der laves en brugerdialog og kald til metoden doMath
 
     Scanner myScan = new Scanner(System.in);
     System.out.println("Indtast et hel tal mellem 100 og 999: ");

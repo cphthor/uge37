@@ -1,3 +1,11 @@
+/*
+ * FORMÅL:
+ * At se hvordan klassevariabler kan tilgås og ændres
+ *
+ * OPGAVE:
+ * Du skal bare sørge for at main-delen virker.
+ *
+ * */
 import java.util.Scanner;
 public class ComputeBMIBadStyle {
   static double weightKg,heightM,BMI;
@@ -21,6 +29,7 @@ public class ComputeBMIBadStyle {
   }
 
   public static void main(String[] args){
+    // løsning:
     doDiag();
     doMath();
     doPrint();
