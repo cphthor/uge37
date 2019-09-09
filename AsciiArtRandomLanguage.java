@@ -4,12 +4,6 @@ class AsciiArtRandomLanguage {
   static final int MYRANGE=127;
 
   public static void main(String[] args) {
-
-    int userDiagRetVal = doDiag();
-    int userBasedRandom = doRand(userDiagRetVal);
-    char myC = (char)userBasedRandom;
-    String mySC = Character.toString(myC); 
-    doArt(mySC);
     /*
      * FORMÅL: 
      * At formatere output og være kreativ II
@@ -18,28 +12,45 @@ class AsciiArtRandomLanguage {
      * OPGAVEN: Tegn en pyramidefigur vha et tilfældigt tegn indenfor
      * et bestemt sprogområde der vælges af brugeren.
      * Lav tre metoder med flg signaturer:
-     *
-     * Hjælp til løsning: brug javas random-generator, udtænk og/eller google
-     * hvordan man får et heltal i et bestemt interval. Sørg derefter at gemme
-     * tallet som en char og ikke en int (hint:typecast).
-     * Lav metoder med flg signaturer:
-     *
      * public static int doRand(int userInput)
      * public static int doDiag()
      * public static void doArt(String mySC) 
      *
+     * Nedenfor er doDiag() lavet så man ikke behøver at tænke over hvilke
+     * tal der rammer indenfor hvilke sprog. Er man nysgerrig kan man kigge
+     * på https://unicode-table.com/en/. Husk at unicode-værdien er angivet i
+     * hexadecimaltal og skal derfor laves om til titals-systemet for at man 
+     * rammer sprogområdet. 
+     *
+     *
+          ·
+         ···
+        ·····
+       ·······
+      ·········
+     ···········
      
+          ك
+         ككك
+        ككككك
+       ككككككك
+      ككككككككك
+     ككككككككككك
      
-      		      #      	
-      		     ###    
-      		    ##### 
-      		   #######
-      	          #########
-      	         ############
-      
-     */
 
+  public static int doDiag() {
+    Scanner myScan = new Scanner(System.in);
+    System.out.println("Indtast 1536 (Arabisk), 880 (Græsk), 9472 (box) eller bare helt tilfældigt: ");
+    int userInt = myScan.nextInt();
+    return userInt;
+  }
+     */
     // løsning
+    int userDiagRetVal = doDiag();
+    int userBasedRandom = doRand(userDiagRetVal);
+    char myC = (char)userBasedRandom;
+    String mySC = Character.toString(myC); 
+    doArt(mySC);
   }
   public static int doRand(int userInput) {
     Random myRand = new Random();
@@ -54,7 +65,6 @@ class AsciiArtRandomLanguage {
     System.out.println("Indtast 1536 (Arabisk), 880 (Græsk), 9472 (box) eller bare helt tilfældigt: ");
     int userInt = myScan.nextInt();
     return userInt;
-    
   }
   public static void doArt(String myC) {
     String myS = myC;

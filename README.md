@@ -5,10 +5,12 @@
 2) OrderOfPrec
 
 3) ComputeVAT
+- ComputeVAT, ComputeVATBetterStyle, ComputeVATGoodStyle
 
 4) ComputeSum
 
 5) ComputeBMI
+-ComputeBMI, ComputeBMIBadStyle, ComputeBMIGoodStyle, ComputeBMIGoodStyleBetter
 
 6) AsciiArtPyroOne
 
@@ -16,9 +18,9 @@
 
 8) ModuloPrime
 
-9) AsciiArtRandom
+9) AsciiArtRandom og AsciiArtRandomLanguage 
+- de er begge tænkt som ekstraopgaver
 
-10) AsciiArtRandomLanguage
 
 ComputeVAT og ComputeBMI Opgaverne skal vise fordelene ved at uddelegere 
 forskellige opgaver til passende metoder så hver metode står for én slags opgave. 

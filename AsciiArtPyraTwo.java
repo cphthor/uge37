@@ -4,30 +4,31 @@ class AsciiArtPyraTwo {
      * FORMÅL: 
      * At formatere output 
      *
-     * 1)Tegn flg figur ved hjælp af #, |, mellemrum og printf
+     * OPGAVE:
+     * Tegn flg figur ved hjælp af #, |, mellemrum og printf
      * hint: brug to variabler og to tilhørende formatspecifiers
-                      #          |
-                     ###         |
-                    #####        |
-                   #######       |
-                  #########      |
-                 ###########     |
      
-                 */
+      |          #          |
+      |         ###         |
+      |        #####        |
+      |       #######       |
+      |      #########      |
+      |     ###########     |
+      */
 
     // løsning
     String myC = "#";
     String myN = "|";
-    System.out.printf("%11s%11s%n",myC,myN);
+    System.out.printf("%s%11s%11s%n",myN,myC,myN);
     myC = "###";
-    System.out.printf("%12s%10s%n",myC,myN);
+    System.out.printf("%s%12s%10s%n",myN,myC,myN);
     myC = "#####";
-    System.out.printf("%13s%9s%n",myC,myN);
+    System.out.printf("%s%13s%9s%n",myN,myC,myN);
     myC = "#######";
-    System.out.printf("%14s%8s%n",myC,myN);
+    System.out.printf("%s%14s%8s%n",myN,myC,myN);
     myC = "#########";
-    System.out.printf("%15s%7s%n",myC,myN);
+    System.out.printf("%s%15s%7s%n",myN,myC,myN);
     myC = "###########";
-    System.out.printf("%16s%6s%n",myC,myN);
+    System.out.printf("%s%16s%6s%n",myN,myC,myN);
   }
 }

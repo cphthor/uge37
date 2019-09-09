@@ -16,26 +16,42 @@ class AsciiArtRandom {
      * For at den virker skal din char laves til String. Det gør man på flg måde:
      * String mySC = Character.toString(myChar); 
      *
+     * Herunder eksempler fra fire kørsler af programmet
      
+          T
+         TTT
+        TTTTT
+       TTTTTTT
+      TTTTTTTTT
+     TTTTTTTTTTT
+          6
+         666
+        66666
+       6666666
+      666666666
+     66666666666
+          k
+         kkk
+        kkkkk
+       kkkkkkk
+      kkkkkkkkk
+     kkkkkkkkkkk
+          F
+         FFF
+        FFFFF
+       FFFFFFF
+      FFFFFFFFF
+     FFFFFFFFFFF
      
-      		      #      	
-      		     ###    
-      		    ##### 
-      		   #######
-      	          #########
-      	         ############
       
      */
 
     // løsning
     Random myRand = new Random();
-    //int MAX = 1791;
-    //int MIN = 1536;
     int MAX = 125;
     int MIN = 33;
     
     int myInt = myRand.nextInt((MAX-MIN)+1)+MIN;
-    System.out.println("myInt:" + myInt);
     char myC = (char)myInt;
     String mySC = Character.toString(myC); 
     doArt(mySC);

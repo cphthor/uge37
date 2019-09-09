@@ -5,7 +5,7 @@ public class SpeakToMe {
      * FORMÅL:
      * At få kendskab til scanner-klassen, integerdivision
      * typecasting, order-of-precedence, at bygge metoder og returnere
-     * værdier, samt at blive præsenteret for bit-masking i skjult form
+     * værdier
      *
      * Opgave 
      * 1)
@@ -45,18 +45,6 @@ public class SpeakToMe {
     // så skal vi have trukket højden ud af tallet
     weight = (heightWeight - (height*1000))/10.0;
     System.out.println("Opdelt H: " + height + "W: " + weight);
-
-    public static doShuffel() {
-    
-    }
-
-    public static doDiag() {
-    
-    }
-
-    public static printRes(String result) {
-    
-    }
 
   }
 }

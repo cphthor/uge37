@@ -19,6 +19,7 @@ public class FormatZero {
        7888666
        7.888.666
        |     Kurt Verner|
+     *
      * opgave 2)
      * kvadratroden af 675 er afrundet på 14 decimal 25.98076211353316
      * udregn og gem kvadratroden korrekt afrundet på 2. decimal kun ved
@@ -42,5 +43,4 @@ public class FormatZero {
     mySqrt = Math.round((Math.sqrt(675)*1000))/1000.0;
     System.out.println(mySqrt);
   }
-
 }
