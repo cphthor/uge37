@@ -10,15 +10,14 @@
 4) ComputeSum
 
 5) ComputeBMI
--ComputeBMI, ComputeBMIBadStyle, ComputeBMIGoodStyle, ComputeBMIGoodStyleBetter
+- ComputeBMI, ComputeBMIBadStyle, ComputeBMIGoodStyle, ComputeBMIGoodStyleBetter
 
-6) AsciiArtPyroOne
+6) AsciiArtPyro
+- AsciiArtPyroOne og AsciiArtPyroTwo 
 
-7) AsciiArtPyroTwo
+7) ModuloPrime
 
-8) ModuloPrime
-
-9) AsciiArtRandom og AsciiArtRandomLanguage 
+8) AsciiArtRandom og AsciiArtRandomLanguage 
 - de er begge tænkt som ekstraopgaver
 
 
