@@ -9,7 +9,7 @@ public class ComputeSum {
      *
      * Opgave 
      * 1) Lad brugeren indtaste et hel-tal mellem 100 og 999.
-     * Lav en metode som returnerer den første tværsum (som er summen af de enkelte tal i
+     * Lav en metode som returnerer tværsummen (som er summen af de enkelte tal i
      * tallet)
      * exempel:
      * mitTal = 345
